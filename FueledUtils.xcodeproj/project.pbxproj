@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0238E9351E69B53200BF26D4 /* ScrollViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238E9341E69B53200BF26D4 /* ScrollViewPage.swift */; };
-		024E88731DA1597900826334 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024E88721DA1597900826334 /* ReactiveSwift.framework */; };
 		02DE3C221D258C79002B58E2 /* FueledUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 02DE3C211D258C79002B58E2 /* FueledUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02DE3C2A1D258E02002B58E2 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DE3C291D258E02002B58E2 /* ReactiveCocoa.framework */; };
-		02DE3C2C1D258E08002B58E2 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DE3C2B1D258E08002B58E2 /* Result.framework */; };
 		02DE3C3C1D258FD1002B58E2 /* RACExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DE3C351D258FD1002B58E2 /* RACExtensions.swift */; };
 		02DE3C3E1D258FD1002B58E2 /* SequenceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DE3C371D258FD1002B58E2 /* SequenceExtensions.swift */; };
 		02DE3C3F1D258FD1002B58E2 /* SignalingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DE3C381D258FD1002B58E2 /* SignalingAlert.swift */; };
@@ -29,17 +26,18 @@
 		02DF8ECB1E6464AB009AB29C /* ReactiveLifetimeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF8ECA1E6464AB009AB29C /* ReactiveLifetimeProvider.swift */; };
 		02E626091D340F0C0041E512 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E626081D340F0C0041E512 /* LoadingState.swift */; };
 		35996E0F1F55C3E1004D6AC0 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35996E0E1F55C3E1004D6AC0 /* FoundationExtensions.swift */; };
+		B2E420CD21137167006729B5 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E420C921137167006729B5 /* ReactiveSwift.framework */; };
+		B2E420CE21137167006729B5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E420CA21137167006729B5 /* Result.framework */; };
+		B2E420CF21137167006729B5 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E420CB21137167006729B5 /* ReactiveCocoa.framework */; };
+		B2E420D021137167006729B5 /* ReactiveMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E420CC21137167006729B5 /* ReactiveMapKit.framework */; };
 		F4A619551F47263100777BB2 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A619541F47263100777BB2 /* CollectionExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0238E9341E69B53200BF26D4 /* ScrollViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewPage.swift; sourceTree = "<group>"; };
-		024E88721DA1597900826334 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "Carthage/Checkouts/ReactiveSwift/build/Debug-iphoneos/ReactiveSwift.framework"; sourceTree = "<group>"; };
 		02DE3C1E1D258C79002B58E2 /* FueledUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FueledUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DE3C211D258C79002B58E2 /* FueledUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FueledUtils.h; sourceTree = "<group>"; };
 		02DE3C231D258C79002B58E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02DE3C291D258E02002B58E2 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02DE3C2B1D258E08002B58E2 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DE3C351D258FD1002B58E2 /* RACExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACExtensions.swift; sourceTree = "<group>"; };
 		02DE3C371D258FD1002B58E2 /* SequenceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceExtensions.swift; sourceTree = "<group>"; };
 		02DE3C381D258FD1002B58E2 /* SignalingAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalingAlert.swift; sourceTree = "<group>"; };
@@ -57,6 +55,10 @@
 		02DF8ECA1E6464AB009AB29C /* ReactiveLifetimeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveLifetimeProvider.swift; sourceTree = "<group>"; };
 		02E626081D340F0C0041E512 /* LoadingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
 		35996E0E1F55C3E1004D6AC0 /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		B2E420C921137167006729B5 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		B2E420CA21137167006729B5 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		B2E420CB21137167006729B5 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		B2E420CC21137167006729B5 /* ReactiveMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMapKit.framework; path = Carthage/Build/iOS/ReactiveMapKit.framework; sourceTree = "<group>"; };
 		F4A619541F47263100777BB2 /* CollectionExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,9 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02DE3C2A1D258E02002B58E2 /* ReactiveCocoa.framework in Frameworks */,
-				024E88731DA1597900826334 /* ReactiveSwift.framework in Frameworks */,
-				02DE3C2C1D258E08002B58E2 /* Result.framework in Frameworks */,
+				B2E420CD21137167006729B5 /* ReactiveSwift.framework in Frameworks */,
+				B2E420D021137167006729B5 /* ReactiveMapKit.framework in Frameworks */,
+				B2E420CF21137167006729B5 /* ReactiveCocoa.framework in Frameworks */,
+				B2E420CE21137167006729B5 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +80,10 @@
 		024E88711DA1597800826334 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				024E88721DA1597900826334 /* ReactiveSwift.framework */,
+				B2E420CB21137167006729B5 /* ReactiveCocoa.framework */,
+				B2E420CC21137167006729B5 /* ReactiveMapKit.framework */,
+				B2E420C921137167006729B5 /* ReactiveSwift.framework */,
+				B2E420CA21137167006729B5 /* Result.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,8 +93,6 @@
 			children = (
 				02DE3C201D258C79002B58E2 /* FueledUtils */,
 				02DE3C1F1D258C79002B58E2 /* Products */,
-				02DE3C291D258E02002B58E2 /* ReactiveCocoa.framework */,
-				02DE3C2B1D258E08002B58E2 /* Result.framework */,
 				024E88711DA1597800826334 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -352,6 +356,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Carthage/Build",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = FueledUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -377,6 +382,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Carthage/Build",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = FueledUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

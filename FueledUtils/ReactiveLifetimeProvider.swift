@@ -1,7 +1,7 @@
 import ReactiveSwift
 
 /// The goal of this protocol is to add RAC-style `reactive` proxy to Swift objects.
-public protocol ReactiveLifetimeProvider: ReactiveExtensionsProvider {
+public protocol ReactiveLifetimeProvider: class, ReactiveExtensionsProvider {
 	var lifetimeToken: Lifetime.Token { get }
 }
 
@@ -17,7 +17,7 @@ public extension Reactive where Base: ReactiveLifetimeProvider {
 		return Lifetime(self.base.lifetimeToken)
 	}
 	public func makeBindingTarget<U>(on scheduler: Scheduler = UIScheduler(), _ action: @escaping (Base, U) -> Void) -> BindingTarget<U> {
-		return BindingTarget(on: scheduler, lifetime: lifetime) { [weak base = self.base] value in
+		return BindingTarget(on: scheduler, lifetime: lifetime) { [weak base] value in
 			if let base = base {
 				action(base, value)
 			}
